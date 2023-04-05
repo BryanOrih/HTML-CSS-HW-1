@@ -1,0 +1,93 @@
+body{
+    max-height: 100vh;
+    max-width: 100vw;
+    background-color: #e9edd6;
+}
+h1{
+    margin: 1vw 10vh;
+    font-size: 6vh;
+}
+.mainBodyText>h1{
+    margin: 1vw 3vh;
+    font-size: 6vh;
+}
+nav{
+    font-size: 5vh;
+    display: flex;
+    background-color: #bc0000;
+    margin: 0px 5vw;
+    height: 6vh;
+    justify-content: space-evenly;
+}
+a{
+    text-decoration: none;
+}
+nav> a{
+    color: white
+}
+img{
+
+}
+.mainBody{
+    display: flex;
+    margin: 1vh 5vw;
+}
+.mainBodyText{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+p{
+    font-size: 5.2vh;
+    margin: 1vw 3vh;
+}
+.mainBody2{
+    display: flex;
+}
+.products, .order{
+    display: flex;
+    flex-direction: column;
+    font-size: 4vh;
+}
+ul,ol{
+    margin-left: 12vh;
+}
+.finalBody{
+    display:flex;
+    justify-content: space-evenly;
+}
+.finalBody > p{
+    margin: 1vh;
+    color: #bc0000;
+    padding: 10px;
+    border: 15px solid #bc0000;
+}
+.finalBody > *{
+    padding: 30px 30px 30px 30px !important
+}
+#footer{
+    margin: 1vw 10vh;
+    padding-bottom: 5vh;
+    color:   #fd0a41;
+}
+hr{
+    width: 88vw;
+}
+form{
+    margin: 1vw 10vh;
+    font-size: 3vh;
+}
+input{
+    font-size: 3vh;
+}
+button{
+    margin-top: 3vh;
+    font-size: 3vh;
+}
+#footer > a{
+    color: #bc0000;
+}
+#mainText > a{
+    
+color:#bc0000;
+}
